@@ -1,0 +1,36 @@
+.custom-modal {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 75%;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.custom-modal__inner {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    padding: 20px;
+}
+
+tr {
+    cursor: pointer;
+}
+
+tr:hover {
+    background-color: #0d6efd;
+    transition: all 0.2s;
+    color: #fff;
+}
+
+.form-group__label {
+    color: #fff;
+}
+
+.history {
+    max-height: 400px;
+    overflow: auto;
+}
